@@ -8,9 +8,9 @@ The first thing I intend to add is the code shared by Zhen, which connects to dr
 It is already set up to connect to, access, and import the files into a dataframe.
 
 Some important upcoming tasks would be to:
-- parse the 'extra' column in the 'event_log' dataset into multiple columns
+- [ ] parse the 'extra' column in the 'event_log' dataset into multiple columns
   - this could be split into multiple cases depending on the 'action' value
-- join the 'event_log' datasets and the 'student_course' datasets into one dataframe
- - this could be a simple union for the multiple terms of data for 'event_log' and for 'student_course' datasets separately
-  - this would be a good one to try first
- - it will likely require a left outer join to combine the 'event_log' data with the 'student_course' data
+- [ ] join the 'event_log' datasets and the 'student_course' datasets into one dataframe
+  - [ ] this could be a simple union for the multiple terms of data for 'event_log' and for 'student_course' datasets separately
+    - this would be a good one to try first
+  - [ ] it will likely require a left outer join to combine the 'event_log' data with the 'student_course' data
