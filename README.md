@@ -10,7 +10,7 @@ It is already set up to connect to, access, and import the files into a datafram
 ## Tasklist
 Some important upcoming tasks would be to:
 - [x] get Zhen's script to work on my local machine
-- [ ] parse the 'extra' column in the 'event_log' dataset into multiple columns
+- [x] parse the 'extra' column in the 'event_log' dataset into multiple columns
   - this could be split into multiple cases depending on the 'action' value
 - [ ] join the 'event_log' datasets and the 'student_course' datasets into one dataframe
   - [ ] this could be a simple union for the multiple terms of data for 'event_log' and for 'student_course' datasets separately
