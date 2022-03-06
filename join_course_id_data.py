@@ -1,3 +1,26 @@
+pip install dropbox
+
+import dropbox
+import pandas as pd
+import io
+
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
+
+# Time Series analysis
+# https://www.machinelearningplus.com/time-series/time-series-analysis-python/
+from dateutil.parser import parse
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+import pandas as pd
+plt.rcParams.update({'figure.figsize': (10, 7), 'figure.dpi': 120})
+
+
+
 # Important:
 # 1. Save a copy of this script to your own Google Drive
 # 2. Genereate your own DROPBOX_TOKEN, and NEVER share it with others or check into version control systems like GitHub
